@@ -27,6 +27,20 @@
                 <h2>Milyen színben szeretné?</h2>
                 <label for="cl">Szín</label> <input type="color" name="cl" id="cl">
             </div>
+
+            <div>
+                <h2>Milyen szövetből legyen a borítás</h2>
+                <label for="szov1">Bőr</label> <input type="checkbox" name="szov1" id="szov1">
+                <label for="szov2">Mű bőr</label> <input type="checkbox" name="szov2" id="szov2">
+                <label for="szov3">Pamut</label> <input type="checkbox" name="szov3" id="szov3">
+                <label for="szov4">Textil</label> <input type="checkbox" name="szov4" id="szov4">
+            </div>
+
+            <div>
+                <h2>Menyire fárad el a nap végén?</h2>
+                <input type="range" id="favNuber"  value="5" oninput="this.form.htfin.value=this.value"> <input type="number" name="htfin" min="1" max="10" value="10" oninput="this.form.favNuber.value=this.value">
+                <h3>Minél jobban elfáratd annál kényelmesebbre gyártjuk a ki választott terméket</h3>
+            </div>
             <input type="submit" value="Submit">
         </form>
     </section>
