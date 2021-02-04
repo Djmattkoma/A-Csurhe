@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kérdőív</title>
+</head>
+<body>
+    <section>
+        <form action="ures.php" method="POST">
+            <div>
+                <h2>Mit szeretnél venni</h2>
+                <label for="b1">Fotel</label> <input type="checkbox" name="b1" id="b1">
+                <label for="b2">Kanapé</label> <input type="checkbox" name="b2" id="b2">
+                <label for="b3">Ágy</label> <input type="checkbox" name="b3" id="b3">
+            </div>
+
+            <div>
+                <h2>Milyen méretben szeretné?</h2>
+                <label for="s">kicsi</label> <input type="checkbox" name="s" id="s">
+                <label for="m">közepes</label> <input type="checkbox" name="m" id="m">
+                <label for="l">nagy</label> <input type="checkbox" name="l" id="l">
+                <label for="xl">nagyon nagy</label> <input type="checkbox" name="xl" id="xl">
+            </div>
+
+            <div>
+                <h2>Milyen színben szeretné?</h2>
+                <label for="cl">Szín</label> <input type="color" name="cl" id="cl">
+            </div>
+            <input type="submit" value="Submit">
+        </form>
+    </section>
+</body>
+</html>
